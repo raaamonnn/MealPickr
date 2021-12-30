@@ -216,7 +216,7 @@ class HomeFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClick
                 }
             }
         }
-        return listRestaurantsCat.distinct().toMutableList()
+        return listRestaurantsCat
     }
 
     private fun checkPermission() {
@@ -245,7 +245,6 @@ class HomeFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClick
 
                 listRestaurants = getRestuarantCategories(listRestaurantsCat) as ArrayList<YelpRestaurant>
                 Log.i(TAG, "This listRest in button ${listRestaurants.size}")
-//                listTitles = getCategoriesTitles(listRestaurants)
                 listRestaurants =
                     getFilteredRestaurantCategories(listRestaurants, listTitles.distinct().toMutableList()) as ArrayList<YelpRestaurant>
                 listTitles = getCategoriesTitles(listRestaurants)
@@ -283,7 +282,6 @@ class HomeFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClick
             if (restaurant.distance < (range * 1000) && restaurant.is_closed == "false") {
                 Log.i(TAG, "This rest in display ${restaurant}")
                 for (i in restaurant.categories) {
-//                    if(filter == null || i.title.contains(filter.toString(), ignoreCase = true)) {
                     val url = URL("${restaurant.image}")
                     mMap.addMarker(
                         MarkerOptions()
@@ -293,7 +291,6 @@ class HomeFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClick
                             .draggable(true)
                     )
                     mMap.setOnInfoWindowClickListener(this);
-//                    }
                 }
             }
         }
@@ -354,22 +351,12 @@ class HomeFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClick
         }
     }
 
-    private fun getImageAsync(url:URL, completionHandler: (Bitmap) -> Unit) {
-        completionHandler(BitmapFactory.decodeStream(url.openConnection().getInputStream()))
-    }
     override fun onCreate(savedInstanceState: Bundle?) {
         setHasOptionsMenu(true)
         super.onCreate(savedInstanceState)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-//        inflater.inflate(R.menu.actionbar, menu)
-        super.onCreateOptionsMenu(menu, inflater)
-    }
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return super.onOptionsItemSelected(item);
-    }
-
+    //Opens new infowindow page
     override fun onInfoWindowClick(p0: Marker) {
         val restaurant = findRestaurantByPhone(p0.snippet)
         if (restaurant != null) {
