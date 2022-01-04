@@ -1,6 +1,3 @@
-# group-project-team-hypervisor
-group-project-team-hypervisor created by GitHub Classroom
-
 # MealPickr
 
 Authors:
