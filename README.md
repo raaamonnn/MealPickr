@@ -1,19 +1,17 @@
 # MealPickr
-### Video
+## Video
 <p align="center">
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=dqSXcmuTBd0
   " target="_blank"><img src="https://img.youtube.com/vi/dqSXcmuTBd0/0.jpg" 
   alt="MealPickr Overview" width="600" height="400" border="10" /></a>
 </p>
-<p>
+## Overview
+### Summary
 Authors:
 1. Farnam Keshavarzian (farnam@csu.fullerton.edu)
 2. Ramon Amini (raaamonnn@csu.fullerton.edu)
 3. Vincent Lee (lee.v3798@csu.fullerton.edu)
-</p>
 
-## Overview
-### Summary
 MealPickr is an mobile android application that helps those who cannot find a place to eat. 
 It will take the user’s current location and pick a random restaurant within a range (mi) the user chooses. 
 Ex. If the user lives 1 mile away from a McDonalds and the user chooses 2 miles as the range, 
