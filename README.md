@@ -1,5 +1,6 @@
 # MealPickr
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dqSXcmuTBd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![MealPickr Overview](https://www.youtube.com/embed/dqSXcmuTBd0)
+
 Authors:
 1. Farnam Keshavarzian (farnam@csu.fullerton.edu)
 2. Ramon Amini (raaamonnn@csu.fullerton.edu)
