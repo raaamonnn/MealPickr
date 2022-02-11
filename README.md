@@ -2,7 +2,7 @@
 ## Video
 <p align="center">
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=dqSXcmuTBd0
-  " target="_blank"><img src="https://img.youtube.com/vi/dqSXcmuTBd0/2.jpg" 
+  " target="_blank"><img src="https://img.youtube.com/vi/dqSXcmuTBd0/0.jpg" 
   alt="MealPickr Overview" width="600" height="400" border="10" /></a>
 </p>
 
