@@ -1,5 +1,5 @@
 # MealPickr
-![MealPickr Overview](https://www.youtube.com/embed/dqSXcmuTBd0)
+[![MealPickr Overview](https://img.youtube.com/vi/dqSXcmuTBd0/0.jpg)](https://www.youtube.com/embed/dqSXcmuTBd0)
 
 Authors:
 1. Farnam Keshavarzian (farnam@csu.fullerton.edu)
