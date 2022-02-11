@@ -1,7 +1,9 @@
 # MealPickr
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=dqSXcmuTBd0
-" target="_blank"><img src="https://img.youtube.com/vi/dqSXcmuTBd0/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<p align="center">
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=dqSXcmuTBd0
+  " target="_blank"><img src="https://img.youtube.com/vi/dqSXcmuTBd0/0.jpg" 
+  alt="MealPickr Overview" width="600" height="400" border="10" /></a>
+</p>
 Authors:
 1. Farnam Keshavarzian (farnam@csu.fullerton.edu)
 2. Ramon Amini (raaamonnn@csu.fullerton.edu)
